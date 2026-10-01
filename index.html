@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>História do Meme Absolute Cinema</title>
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <style>
+        * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: #eeeeee;
+    color: #171717;
+}
+
+
+/* CONTAINER DAS DUAS COLUNAS */
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+}
+
+
+/* COLUNAS */
+
+.coluna {
+    min-width: 0;
+}
+
+
+/* COLUNA ESQUERDA */
+
+.esquerda {
+    background: #ffffff;
+
+    padding: 35px;
+
+    border-radius: 18px;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.10);
+
+    height: fit-content;
+}
+
+.esquerda h1 {
+    margin-top: 0;
+
+    font-size: 42px;
+    line-height: 1.1;
+
+    color: #111827;
+}
+
+.esquerda p {
+    font-size: 18px;
+    line-height: 1.7;
+
+    color: #444;
+}
+
+
+/* IMAGEM PRINCIPAL */
+
+.imagem-principal {
+    width: 100%;
+    max-width: 100%;
+
+    height: 400px;
+
+    object-fit: cover;
+
+    display: block;
+
+    margin-top: 30px;
+
+    border-radius: 14px;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.20);
+}
+
+
+/* CARDS DA DIREITA */
+
+.card {
+    background: #ffffff;
+
+    margin-bottom: 25px;
+
+    border-radius: 18px;
+
+    overflow: hidden;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.10);
+
+    transition: 0.3s;
+}
+
+
+/* EFEITO AO PASSAR O MOUSE */
+
+.card:hover {
+    transform: translateY(-5px);
+
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+}
+
+
+/* IMAGENS DOS CARDS */
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* TEXTO DOS CARDS */
+
+.conteudo-card {
+    padding: 25px;
+}
+
+.conteudo-card h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+
+    font-size: 28px;
+
+    color: #111827;
+
+    text-transform: uppercase;
+}
+
+.conteudo-card p {
+    font-size: 16px;
+
+    line-height: 1.7;
+
+    color: #444;
+
+    margin-bottom: 12px;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 800px) {
+
+    body {
+        padding: 20px;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .esquerda h1 {
+        font-size: 34px;
+    }
+
+    .imagem-principal {
+        height: 300px;
+    }
+
+}
+    </style>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <!-- COLUNA ESQUERDA -->
+        <section class="coluna esquerda">
+
+            <h1>História do Meme Absolute Cinema</h1>
+
+            <p>
+                O meme "Absolute Cinema" nasceu de uma foto em preto e branco
+                do aclamado diretor Martin Scorsese com as mãos levantadas,
+                usada para exaltar cenas épicas ou de alta qualidade.
+            </p>
+
+            <img 
+                src="img/cinema.webp" 
+                alt="Martin Scorsese com as mãos levantadas"
+                class="imagem-principal"
+            >
+
+        </section>
+
+
+        <!-- COLUNA DIREITA -->
+        <section class="coluna direita">
+
+            <article class="card">
+
+                <img 
+                    src="img/origem.jpg" 
+                    alt="Origem da foto de Martin Scorsese"
+                >
+
+                <div class="conteudo-card">
+
+                    <h2>Origem da Foto</h2>
+
+                    <p>
+                        • A foto original: Foi tirada pelo fotógrafo Philip
+                        Montgomery para o The New York Times em 2 de janeiro
+                        de 2020, durante uma entrevista com o cineasta na época
+                        do lançamento de O Irlandês.
+                    </p>
+
+                    <p>
+                        • A pose: A imagem mostra Scorsese em pé sob uma
+                        iluminação dramática de estúdio, com as mãos erguidas
+                        de forma expressiva.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <article class="card">
+
+                <img 
+                    src="img/cinema.jpg" 
+                    alt="Meme Absolute Cinema"
+                >
+
+                <div class="conteudo-card">
+
+                    <h2>Explosão como Meme</h2>
+
+                    <p>
+                        • O primeiro uso: Em 1º de dezembro de 2022, o usuário
+                        do X (antigo Twitter) @YashChillin publicou a imagem
+                        do diretor ao lado de um trecho de uma cena marcante
+                        do anime Chainsaw Man, legendando a postagem com a
+                        frase "Absolute Cinema".
+                    </p>
+
+                    <p>
+                        • A viralização: A combinação da expressão de adoração
+                        de Scorsese com a legenda pegou forte na comunidade
+                        otaku e cinéfila.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <article class="card">
+
+                <img 
+                    src="img/cinema2.jpeg" 
+                    alt="Uso atual do meme Absolute Cinema"
+                >
+
+                <div class="conteudo-card">
+
+                    <h2>Como é usado hoje</h2>
+
+                    <p>
+                        • Selo de aprovação: A imagem virou uma reação
+                        universal para elogiar não só momentos marcantes de
+                        filmes, séries e animes, mas também jogadas épicas
+                        de futebol e situações do cotidiano.
+                    </p>
+
+                    <p>
+                        • Variantes: O sucesso gerou diversas versões
+                        adaptadas com outros rostos ou contextos.
+                    </p>
+
+                </div>
+
+            </article>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
